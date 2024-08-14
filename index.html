@@ -29,6 +29,8 @@
             max-width: 600px;
             width: 100%;
             flex-grow: 1;
+            max-height: calc(100vh - 80px); /* Adjust height to ensure footer fits */
+            overflow-y: auto; /* Allow scrolling if content exceeds box size */
         }
         .container {
             display: flex;
